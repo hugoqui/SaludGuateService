@@ -12,7 +12,7 @@ export default new Router({
     routes:[
         {path: '/', component: Home, name: 'Home'},
         {path: '/inmunocal', component: Inmunocal, name: 'Inmunocal'},
-        {path: '/nutritif', component: Nutritif, name: 'Inmunocal'},
+        {path: '/nutritif', component: Nutritif, name: 'Nutrifit'},
         {path: '/kyani', component: Kyani, name: 'Kyani'}
     ]
 })

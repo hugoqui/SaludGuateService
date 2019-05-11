@@ -35,7 +35,7 @@
 <style scoped>
     #footer{
         width:100%;
-        margin-top:3rem;
+        margin-top:-1px;
         background: #333;
         padding:3rem;
         color:#fff;

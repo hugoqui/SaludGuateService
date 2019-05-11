@@ -22,9 +22,9 @@
                         </div>
                     </div>                   
                     <div class="carousel-item">
-                        <img src="images/morinlife.jpg" class="d-block w-100" alt="Salud Guateservice">
+                        <img src="@/assets/morinlife.jpg" class="d-block w-100" alt="Salud Guateservice">
                         <div class="carousel-caption d-none d-md-block">
-                            <router-link to="/morinlife" class="btn btn-outline-light btn-lg">SABER MÁS </router-link>
+                            <router-link to="/nutritif" class="btn btn-outline-light btn-lg">SABER MÁS </router-link>
                         </div>
                     </div>                   
                 </div>
@@ -90,9 +90,23 @@
                 </div>             
             </div>
         </div>
+
+        <products></products>
+        <financial></financial>
     </div>
 </template>
 
 <style scoped>
     p{text-align: justify;}
 </style>
+
+<script>
+import Products from "./Products"
+import Financial from "./Financial"
+
+export default {
+    components:{
+        Products,Financial
+    }
+}
+</script>

@@ -65,14 +65,19 @@
                 </div>                              
             </div>         
         </div> 
+
+        <products></products>
+        <financial></financial>
     </div>
 </template>
 
 <script>
 import Parallax from "vue-parallaxy";
+import  Products  from "./Products";
+import  Financial  from "./Financial";
 
 export default {
-    components:{ Parallax }    
+    components:{ Parallax, Products, Financial }    
 }
 </script>
 
