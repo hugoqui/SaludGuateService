@@ -5,19 +5,26 @@
                 <ol class="carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="@/assets/inmunocal.jpg" class="d-block w-100" alt="Salud Guateservice">
                         <div class="carousel-caption d-none d-md-block">                            
-                            <router-link to="/" class="btn btn-outline-primary btn-lg">SABER MÁS </router-link>
+                            <router-link to="/inmunocal" class="btn btn-outline-primary btn-lg">SABER MÁS </router-link>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="@/assets/kyani.jpg" class="d-block w-100" alt="Salud Guateservice">
                         <div class="carousel-caption d-none d-md-block">
-                            <router-link to="/" class="btn btn-outline-light btn-lg">SABER MÁS </router-link>
+                            <router-link to="/kyani" class="btn btn-outline-light btn-lg">SABER MÁS </router-link>
+                        </div>
+                    </div>                   
+                    <div class="carousel-item">
+                        <img src="images/morinlife.jpg" class="d-block w-100" alt="Salud Guateservice">
+                        <div class="carousel-caption d-none d-md-block">
+                            <router-link to="/morinlife" class="btn btn-outline-light btn-lg">SABER MÁS </router-link>
                         </div>
                     </div>                   
                 </div>
